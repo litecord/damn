@@ -7,7 +7,7 @@ CREATE TABLE users (
     flags int DEFAULT 0,
     verified boolean DEFAULT FALSE,
     email varchar(255) NOT NULL,
-    phone varchar(60) DEFAULT "",
+    phone varchar(60) DEFAULT '',
 
     password_hash text NOT NULL,
     password_salt text NOT NULL,
