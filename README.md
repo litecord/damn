@@ -1,6 +1,8 @@
 # damn
 Databse Middleman for Litecord
 
+**THIS IS DEAD CODE, WON'T BE USED**
+
 This establishes a connection with Postgres and
 provides an HTTP API so that `gateway` and `rest` can communicate with.
 
